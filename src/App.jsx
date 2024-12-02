@@ -3,8 +3,6 @@ import Header from "./components/layout/Header";
 import { languages } from "./data/languages";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <Header />
