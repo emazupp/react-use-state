@@ -1,0 +1,56 @@
+/* utils */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+/* header */
+
+.header-title {
+  font-size: 3rem;
+}
+
+/* button */
+
+.button-container {
+  display: flex;
+  gap: 20px;
+}
+
+button {
+  border: none;
+  background-color: rgb(0, 132, 255);
+  color: white;
+  padding: 15px 20px;
+  border-radius: 10px;
+  font-size: 1.3rem;
+}
+
+/* card */
+
+.card {
+  padding: 20px;
+  margin-top: 50px;
+  border: 1px solid rgb(128, 128, 128, 0.3);
+  width: 1000px;
+  border-radius: 10px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.card-body {
+  padding-top: 10px;
+  font-size: 1.3rem;
+  font-weight: 100;
+  color: rgba(0, 0, 0, 0.7);
+}
