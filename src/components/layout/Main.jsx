@@ -10,8 +10,13 @@ export default function Main({ data }) {
     return language.findIndex((item) => item.id === id);
   };
 
+  const setActiveToFalse = () => {
+    language.map((item) => (item.active = false));
+  };
+
   const changeActiveLanguage = (id) => {
     const indexActiveElement = indexByElementId(id);
+    setActiveToFalse();
     const updatedLanguage = [...language];
     updatedLanguage[indexActiveElement].active =
       !updatedLanguage[indexActiveElement].active;
