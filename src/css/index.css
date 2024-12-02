@@ -33,6 +33,11 @@ button {
   font-size: 1.3rem;
 }
 
+button.active {
+  background-color: gold;
+  color: black;
+}
+
 /* card */
 
 .card {
