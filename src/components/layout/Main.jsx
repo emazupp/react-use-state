@@ -15,7 +15,6 @@ export default function Main({ data }) {
     const updatedLanguage = [...language];
     updatedLanguage[indexActiveElement].active =
       !updatedLanguage[indexActiveElement].active;
-    console.log(updatedLanguage);
     setLanguage(updatedLanguage);
   };
 
